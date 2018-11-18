@@ -3,7 +3,7 @@
 int main() {
 	int testNum;
 	unsigned int input = 0, result = 0;
-	unsigned int convertFunc(unsigned long);
+	unsigned int convertFunc(unsigned int);
 
 	scanf("%d", &testNum);
 	for (int i = 0; i < testNum; i++) {
