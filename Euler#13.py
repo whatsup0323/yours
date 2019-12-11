@@ -4,7 +4,6 @@ import time
 
 def main(num):
     lines = []
-    answer = ''
     sum_val = 0
 
     f = open("D:/Pjt-PyCharm/sample/sample_Euler#13.txt", "r")
@@ -20,8 +19,7 @@ def main(num):
 
     sum_str = str(sum_val)
     if int(num) <= len(sum_str):
-        for y in range(int(num)):
-            answer = answer + sum_str[y]
+        answer = sum_str[0:int(num)]
     else:
         answer = 'None'
 
